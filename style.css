@@ -1,15 +1,35 @@
 #container{
     display: flex;
-    gap: 330px;
+    padding: 80px;
+    
+    
+    
 }
+.placeholder{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    
+    
+    
+}
+#image{
+    padding-right: -12px;
+}
+
 #icons{
     display: flex;
     gap: 20px;
+    padding-left: 120px;
     
 }
 #bigger{
     display: flex;
-    gap: 20px;
+    display: inline-block;
+    position: relative;
+    
+    
+    
 
 }
 #button{
@@ -21,16 +41,19 @@
 }
 .icon{
     margin-top: 18px;
+    
 }
 #logos{
     background-color: #E3F0EF;
+    
 
 }
 .logoss{
     width:100px;
     height: 60px;
+
 }
-#outer{
+#outerframe{
     background-color: #D3DAEB;
     border-radius: 50px;
     margin: 100px 50px;
@@ -41,19 +64,25 @@
 #website{
     background-color: antiquewhite;
     margin: 80px 70px;
+    padding-right: 30px;
+    text-align: center;
+    
+    
     
 }
 .nav a{
 
     text-decoration: none;
-    padding-left: 35px;
-    padding-right: 25px;
+    padding-right: 35px;
+    padding-left: 30px;
+ 
     
 }
+
 .navdiv{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
     
 }
 .logo a{
@@ -61,38 +90,55 @@
     font-weight: 400;
     color: #000;
     text-decoration: none;
+    
 }
 li a{
     font-size: 18px;
-    
-    margin-right: 95px;
+     margin-right: 90px;
     text-decoration: none;
-    color: #000;
+    color: #7b7878;
+    
+    
 
 }
+
+.images{
+    border-radius:50% ;
+
+    
+    
+}
+
 li{
     list-style: none;
     display: inline-block;
     text-decoration: none;
 }
-.butt{
+.button2{
     padding: 10px 15px;
     border-radius: 10px;
     background-color: #85C0BB;
     color: aliceblue;
 
 }
-.butt1{
+.button1{
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 17px;
     background-color:#78BAB4;
     color: aliceblue;
+    padding-left: 20px;
+    position: absolute;
  
 }
-@media screen and(min-width:280px) and(max-width:460px){
+#text{
+    
+    
+}
+@media screen and (min-width:280px) and (max-width:560px){
+    
     #container{
         display: grid;
-        gap: 330px;
+        gap: 30px;
     }
     #icons{
         display:grid;
@@ -122,19 +168,21 @@ li{
         width:100px;
         height: 60px;
     }
-    #outer{
-        background-color: #D3DAEB;
-        border-radius: 50px;
-        margin: 100px 50px;
-        padding: 50px 40px;
-        
-    
+    #outerframe{
+        padding: 200px ;
+        margin-right: -250px;
     }
     #website{
-        background-color: antiquewhite;
-        margin: 80px 70px;
-        
+        margin-right: -150px;
     }
+    .images{
+        width: 150px;
+    }
+    #image{
+        border-radius: 15%;
+    }
+
+
     .nav a{
     
         text-decoration: none;
@@ -144,8 +192,7 @@ li{
     }
     .navdiv{
         display: grid;
-        align-items: center;
-        justify-content: space-between;
+    
         
     }
     .logo a{
@@ -166,14 +213,14 @@ li{
         display: inline-block;
         text-decoration: none;
     }
-    .butt{
+    .button1{
         padding: 10px 15px;
         border-radius: 10px;
         background-color: #85C0BB;
         color: aliceblue;
     
     }
-    .butt1{
+    .button2{
         padding: 10px 15px;
         border-radius: 10px;
         background-color:#78BAB4;

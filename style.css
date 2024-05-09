@@ -1,4 +1,4 @@
-#container{
+#web{
     display: flex;
     padding: 80px;
     
@@ -23,7 +23,7 @@
     padding-left: 120px;
     
 }
-#bigger{
+#toggle{
     display: flex;
     display: inline-block;
     position: relative;
@@ -40,11 +40,13 @@
  
 }
 .icon{
-    margin-top: 18px;
+    margin-top: 29px;
     
 }
 #logos{
     background-color: #E3F0EF;
+    height: 150px;
+    width: 1568px;
     
 
 }
@@ -54,7 +56,7 @@
 
 }
 #outerframe{
-    background-color: #D3DAEB;
+
     border-radius: 50px;
     margin: 100px 50px;
     padding: 50px 40px;
@@ -70,18 +72,24 @@
     
     
 }
+
+    
+
+    
+
+
 .nav a{
 
     text-decoration: none;
-    padding-right: 35px;
-    padding-left: 30px;
+    padding-right: 90px;
+    padding-left: 45px;
+    
  
     
 }
 
 .navdiv{
     display: flex;
-    align-items: center;
    justify-content: space-between;
     
 }
@@ -93,12 +101,10 @@
     
 }
 li a{
-    font-size: 18px;
-     margin-right: 90px;
+    font-size: 18px;   
     text-decoration: none;
     color: #7b7878;
-    
-    
+  
 
 }
 
@@ -113,7 +119,13 @@ li{
     list-style: none;
     display: inline-block;
     text-decoration: none;
+    padding-right: 20px;
+
 }
+.li{
+    color: #000;
+}
+
 .button2{
     padding: 10px 15px;
     border-radius: 10px;
@@ -128,103 +140,113 @@ li{
     color: aliceblue;
     padding-left: 20px;
     position: absolute;
+    margin-top: -21px;
  
 }
-#text{
+
+@media screen and (min-width:280px) and (max-width:660px){
+         
+
+
+.nav a{
+
+    text-decoration: none;
+    padding-right: 0px;
+    
+    
+    
+ 
+    
+}
+
+.navdiv{
+    display: grid;
+   
+    
+}
+.logo a{
+    font-size: 40px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    
+}
+li a{
+    font-size: 18px;   
+    text-decoration: none;
+    color: #7b7878;
+   
+    
+    
+    
+    
+    
+
+}
+
+.images{
+    border-radius:50% ;
+
     
     
 }
-@media screen and (min-width:280px) and (max-width:560px){
-    
-    #container{
-        display: grid;
-        gap: 30px;
-    }
-    #icons{
-        display:grid;
-        gap: 20px;
-        
-    }
-    #bigger{
-        display: grid;
-        gap: 20px;
-    
-    }
-    #button{
-        margin-top: 15px;
-    }
-    .small{
-     width: 20px;
-     
-    }
-    .icon{
-        margin-top: 18px;
-    }
-    #logos{
-        background-color: #E3F0EF;
-    
-    }
-    .logoss{
-        width:100px;
-        height: 60px;
-    }
-    #outerframe{
-        padding: 200px ;
-        margin-right: -250px;
-    }
-    #website{
-        margin-right: -150px;
-    }
-    .images{
-        width: 150px;
-    }
-    #image{
-        border-radius: 15%;
-    }
 
+li{
+    
+    
+    text-decoration: none;
+    padding-right: 10px;
 
-    .nav a{
-    
-        text-decoration: none;
-        padding-left: 35px;
-        padding-right: 25px;
-        
-    }
-    .navdiv{
-        display: grid;
-    
-        
-    }
-    .logo a{
-        font-size: 40px;
-        font-weight: 400;
-        color: #000;
-        text-decoration: none;
-    }
-    li a{
-        font-size: 18px;
-        margin-right: 95px;
-        text-decoration: none;
-        color: #000;
-    
-    }
-    li{
-        list-style: none;
-        display: inline-block;
-        text-decoration: none;
-    }
-    .button1{
-        padding: 10px 15px;
-        border-radius: 10px;
-        background-color: #85C0BB;
-        color: aliceblue;
-    
-    }
-    .button2{
-        padding: 10px 15px;
-        border-radius: 10px;
-        background-color:#78BAB4;
-        color: aliceblue;
-     
-    }  
 }
+.li{
+    color: #000;
+}
+.button1{
+    padding: 10px 15px;
+    border-radius: 17px;
+    background-color:#78BAB4;
+    color: aliceblue;
+    padding-left: 20px;
+    
+    margin-top: -15px;
+    margin-top: 20px;
+    padding-left: -20px;
+    margin-left: -80px;
+    
+ 
+}
+#logos{
+    background-color: #E3F0EF;
+    height: 50px;
+    width: 400px;
+
+} 
+.images{
+    border-radius:50% ;
+    width: 150px;
+    
+}
+#web{
+    display: grid;
+    padding:- 90px;
+    padding-right: 250%;
+
+    
+    
+    
+}
+#icons{
+    display: grid;
+}
+.sentence{
+    font-size:x-small;
+}
+#toggle{
+    display: grid;
+    
+    
+}
+
+
+}
+   
